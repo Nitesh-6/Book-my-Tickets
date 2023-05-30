@@ -1,0 +1,13 @@
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+.registerForm {
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+    margin: 0.5rem 0;
+}
