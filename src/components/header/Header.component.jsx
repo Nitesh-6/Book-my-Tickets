@@ -1,5 +1,5 @@
 import "./header.style.css";
-
+import Login from "../login/Login.component";
 const Header = (props) => {
   return (
     <div>
@@ -13,11 +13,11 @@ const Header = (props) => {
           <ul className="nav navbar-nav navbar-right">
             <li>
               <a href="#">
-                <span>Wellcome {props.user}</span>
+                <span>Welcome {props.user}</span>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href={<Login/>}>
                 <span className="glyphicon glyphicon-log-in"></span> Logout
               </a>
             </li>
